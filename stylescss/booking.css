@@ -2,3 +2,22 @@
   margin: 0;
   box-sizing: border-box;
 }
+form {
+  padding: 2rem;
+  background: hsl(264 30% 96%);
+  border-radius: 8px;
+}
+form {
+  display: grid;
+  gap: 20px;
+  /* font-style: ; */
+}
+
+.form-felt {
+  display: grid;
+  gap: 10px;
+}
+.knapper {
+  display: flex;
+  justify-content: space-between;
+}
