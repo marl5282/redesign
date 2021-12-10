@@ -10,7 +10,7 @@ form {
 form {
   display: grid;
   gap: 20px;
-  /* font-style: ; */
+  font-style: serif;
 }
 
 .form-felt {
