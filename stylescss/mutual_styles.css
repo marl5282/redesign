@@ -1,4 +1,10 @@
+<<<<<<< HEAD
+#videoBG {
+  position: fixed;
+  z-index: -1;
+=======
 header,
 footer {
   background-color: #dbd3d3;
+>>>>>>> e6490549bf43eb3a0d44acbe6252e0d433620f68
 }
