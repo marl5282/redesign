@@ -6,7 +6,7 @@ ul {
   gap: 30px;
 }
 nav {
-  background-color: rgb(133, 101, 101);
+  background-color: rgb(223, 196, 196);
 }
 img {
   max-width: 100%;
@@ -32,7 +32,7 @@ h2 {
 }
 .tekst2 {
   margin-left: 10%;
-  background-color: rgb(231, 212, 212);
+  background-color: rgb(223, 196, 196);
 }
 .tekst1 {
   margin-left: 30%;
