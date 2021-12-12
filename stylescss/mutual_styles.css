@@ -1,3 +1,17 @@
 h1 {
-  font-family: Badoni Moda;
+  font-family: "Bodoni Moda", serif;
+}
+
+a {
+  font-family: "Bebas Neue", cursive;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
