@@ -11,6 +11,10 @@ header {
   background-color: #cfbebe;
   padding-top: 2%;
 }
+.hjem a {
+  font-size: 2rem;
+  margin-left: 45%;
+}
 ul {
   list-style: none;
   display: flex;
