@@ -3,32 +3,42 @@
   height: auto;
   display: block;
 }
-ul.mini {
-  list-style: none;
+#section_2 {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
-
-.mini {
+ul.mini {
   list-style: none;
   padding: 0;
   display: flex;
-  flex-flow: row;
+  flex-flow: column;
 }
 
 .mini li {
-  padding: 1rem 2rem;
+  padding: 2rem 3rem;
   flex: 1;
   text-align: center;
+  font-;
 }
-
 .mini .negle {
-  background-image: url("../billeder/negle.png");
-  background-size: cover;
-}
-.mini .vipper {
-  background-image: url("billeder/vipper.png");
-  background-size: cover;
-}
-.mini .bars {
-  background-image: url("billeder/bars.png");
-  background-size: cover;
+    background-image: url("../billeder/negle13.png");
+    background-size: cover;
+  }
+  .mini .vipper {
+    background-image: url("../billeder/vipper.png");
+    background-size: cover;
+  }
+  .mini .bars {
+    background-image: url("../billeder/bars2.png");
+    background-size: cover;
+  }
+
+@media (min-width: 600px) {
+  ul.mini {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-flow: wrap;
+  }
+  
 }
