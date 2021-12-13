@@ -18,8 +18,13 @@ header {
 }
 .hjem a {
   font-size: 5rem;
+<<<<<<< HEAD
   margin-left: 45%;
   font-family: "Bodino moda", serif;
+=======
+  margin-left: 40%;
+  font-family: "Bodoni Moda", serif;
+>>>>>>> e6602a6585b14df5806ae4e05a92925666d79647
 }
 ul {
   list-style: none;
