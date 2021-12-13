@@ -18,20 +18,19 @@ ul.mini {
   padding: 2rem 3rem;
   flex: 1;
   text-align: center;
-  font-;
 }
 .mini .negle {
-    background-image: url("../billeder/negle13.png");
-    background-size: cover;
-  }
-  .mini .vipper {
-    background-image: url("../billeder/vipper.png");
-    background-size: cover;
-  }
-  .mini .bars {
-    background-image: url("../billeder/bars2.png");
-    background-size: cover;
-  }
+  background-image: url("../billeder/negle13.png");
+  background-size: cover;
+}
+.mini .vipper {
+  background-image: url("../billeder/vipper.png");
+  background-size: cover;
+}
+.mini .bars {
+  background-image: url("../billeder/bars2.png");
+  background-size: cover;
+}
 
 @media (min-width: 600px) {
   ul.mini {
@@ -40,5 +39,4 @@ ul.mini {
     display: flex;
     flex-flow: wrap;
   }
-  
 }
