@@ -1,6 +1,25 @@
 img {
   max-width: 100%;
 }
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+h1 {
+  text-align: center;
+}
+.tekst1 {
+  margin-left: 22%;
+  margin-right: 22%;
+  margin-block-end: auto;
+  text-align: center;
+}
+.tekst2 {
+  margin-left: 10%;
+  margin-block-end: auto;
+}
 
 @media (min-width: 600px) {
   .wrapper1 {
@@ -13,23 +32,7 @@ img {
     margin-left: 20%;
     margin-top: 20%;
   }
-  h2 {
-    margin-left: 20%;
-    margin-top: 10%;
-  }
-  .tekst2 {
-    margin-left: 10%;
-    margin-block-end: auto;
-  }
-  .tekst1 {
-    margin-left: 22%;
-    margin-right: 22%;
-    margin-block-end: auto;
-  }
-  h1 {
-    margin-left: 40%;
-    margin-top: 10%;
-  }
+
   .map {
     aspect-ratio: 1/2;
     width: 100%;
