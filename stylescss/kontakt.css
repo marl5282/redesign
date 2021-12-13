@@ -19,7 +19,7 @@ a {
   color: black;
 }
 @media (min-width: 600px) {
-  .wrapper {
+  .wrapper1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: rgb(219, 206, 206);
@@ -50,5 +50,19 @@ a {
     aspect-ratio: 1/2;
     width: 100%;
     height: auto;
+  }
+  .billed2 {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15%;
+  }
+  .billed3 {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15%;
+  }
+  .wrapper2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
