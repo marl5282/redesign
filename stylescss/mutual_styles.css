@@ -1,32 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
 body {
   background-color: #d9d7d7;
 }
+
+/* ------------------------------------------------ header -------------------------------------------- */
+header {
+  background-color: #cfbebe;
+  padding-top: 2%;
+}
 ul {
   list-style: none;
-  margin: 0px;
-  padding: 40px;
-  display: flex;
-  gap: 30px;
   display: flex;
   justify-content: space-between;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 40px;
+  display: flex;
+  gap: 20px;
 }
 a {
-  font-family: "Bebas Neue", cursive;
+  font-family: "Bodoni", bold;
   text-decoration: none;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 1.5rem;
   color: black;
 }
+/* ----------------------------------------------------------------------------------------------------- */
 h1 {
   font-family: "Bodoni Moda", serif;
+  font-size: 3.5rem;
+  text-align: center;
 }
-
-a {
-  font-family: "Bebas Neue", cursive;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 30px;
-  color: black;
+p {
+  font-family: "Bodino moda", serif;
 }
 
 img {

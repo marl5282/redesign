@@ -4,15 +4,22 @@
   display: block;
 }
 
-#splashvideo {
-  width: 100%;
-  height: auto;
-  aspect-ratio: 16/9;
-}
-
-#section_2 .wrapper {
+/* #section_2 ul {
   display: flex;
   justify-content: space-between;
   padding-left: 10%;
   padding-right: 10%;
+} */
+
+#section_2 .negle {
+  background-image: url("Redigerede billeder/negle.png");
+  background-size: cover;
+}
+#section_2 .vipper {
+  background-image: url("Redigerede billeder/vipper.png");
+  background-size: cover;
+}
+#section_2 .bars {
+  background-image: url("Redigerede billeder/bars.png");
+  background-size: cover;
 }

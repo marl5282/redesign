@@ -1,26 +1,10 @@
-* {
+main {
   margin: 1%;
-  padding: 0%;
 }
 img {
   max-width: 100%;
 }
-ul {
-  list-style: none;
-  margin: 0px;
-  padding: 40px;
-  display: flex;
-  gap: 30px;
-  display: flex;
-  justify-content: space-between;
-}
-a {
-  font-family: "Bebas Neue", cursive;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 30px;
-  color: black;
-}
+
 /* ------------------------------------------------------------- section_1 ------------------------------------------------------------- */
 #section_1 {
   background-image: url("Redigerede billeder/vipper.png");
@@ -115,7 +99,7 @@ a {
     gap: 20px;
   }
   #section_5 img {
-    justify-content: center;
+    place-content: center;
     max-width: 50%;
   }
 }
