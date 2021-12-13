@@ -40,7 +40,9 @@ ul.mini {
   text-align: center;
   padding-top: 10px;
 }
-
+#section_4 .video {
+  place-items: center;
+}
 #section_5 {
   background-color: #f0ebe7;
   padding-block: 8%;

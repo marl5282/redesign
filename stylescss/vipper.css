@@ -9,21 +9,46 @@ img {
 #section_1 {
   background-image: url("../billeder/vipper.png");
   background-size: cover;
+  padding: 10%;
 }
-/* #section_1 h1 {
+
+#section_1 h1 {
   text-align: center;
-  font-family: "Bebas Neue", cursive;
+  /* font-family: "Bebas Neue", cursive;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: bold; */
   font-size: 50px;
   color: white;
-} */
+}
 
+#section_2 {
+  padding: 5%;
+  padding-bottom: 5%;
+  gap: 20px;
+}
+#section_2 .tekst {
+  padding-bottom: 5%;
+  gap: 10px;
+}
+#section_2 .knap {
+  padding-block: 10%;
+  text-align: center;
+}
 /* ------------------------------------------------------------- section_3 ------------------------------------------------------------- */
 #section_3 .video {
-  justify-items: center;
+  margin: 15%;
 }
 /* ------------------------------------------------------------- section_4 ------------------------------------------------------------- */
+
+#section_4 {
+  background-color: #f0ebe7;
+  padding-block: 8%;
+}
+#section_4 h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
 #section_4 .wrapper {
   display: grid;
   grid-template-columns: 1fr;
@@ -103,6 +128,9 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+  }
+  #section_3 .video {
+    margin-inline: 40%;
   }
   #section_5 {
     /* place-content: center; */
