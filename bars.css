@@ -4,7 +4,10 @@ main {
 img {
   max-width: 100%;
 }
-
+#section_1 {
+  background-image: url("../billeder/bars2.png");
+  background-size: cover;
+}
 /* ------------------------------------------------------------- section_3 ------------------------------------------------------------- */
 #section_3 .video {
   justify-items: center;
@@ -34,6 +37,10 @@ img {
 .beskriv {
   grid-column: 1/4;
   grid-row: 2/3;
+}
+
+#section_4 {
+  display: flex;
 }
 
 @media (min-width: 600px);
