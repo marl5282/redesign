@@ -7,19 +7,46 @@ h2 {
   margin-top: 10%;
   margin-bottom: 10%;
 }
-h1 {
-  text-align: center;
-}
+
 .tekst1 {
-  margin-left: 22%;
-  margin-right: 22%;
-  margin-block-end: auto;
-  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  grid-column: 2/3;
+  margin-left: 40%;
 }
 .tekst2 {
   margin-left: 10%;
   margin-block-end: auto;
 }
+.billed1 {
+  max-width: 60%;
+  margin-left: 20%;
+  margin-top: 20%;
+}
+
+.map {
+  aspect-ratio: 1/2;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.billed2 {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 15%;
+}
+.billed3 {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 15%;
+}
+.wrapper2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* mobil str */
 
 @media (min-width: 600px) {
   .wrapper1 {
