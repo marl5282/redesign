@@ -4,8 +4,15 @@
   display: block;
 }
 
-/* #splashvideo {
+#splashvideo {
   width: 100%;
   height: auto;
   aspect-ratio: 16/9;
-} */
+}
+
+#section_2 .wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+}
