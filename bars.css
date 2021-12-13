@@ -1,1 +1,39 @@
+main {
+  margin: 1%;
+}
+img {
+  max-width: 100%;
+}
+
+/* ------------------------------------------------------------- section_3 ------------------------------------------------------------- */
+#section_3 .video {
+  justify-items: center;
+}
+
+/* ------------------------------------------------------------- section_4 ------------------------------------------------------------- */
+
+#section_4 .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  padding: 5%;
+}
+.kategori {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.tid {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.pris {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+.beskriv {
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+
 @media (min-width: 600px);
