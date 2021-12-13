@@ -5,6 +5,9 @@ img {
   max-width: 100%;
 }
 
+hr {
+  border: white 1px solid;
+}
 /* ------------------------------------------------------------- section_1 ------------------------------------------------------------- */
 #section_1 {
   background-image: url("../billeder/vipper.png");
@@ -48,13 +51,23 @@ img {
   text-align: center;
   font-size: 2rem;
 }
+#section_4 h4 {
+  text-align: center;
+  padding-top: 5%;
+}
 
 #section_4 .wrapper {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  gap: 10px;
+  gap: 20px;
   padding: 5%;
+}
+#section_4 .husk {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 2%;
 }
 
 /* ------------------------- inner_wrapper1 ------------------------ */
@@ -62,7 +75,8 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 10px;
+  gap: 5px;
+  padding: 1%;
 }
 .tid1 {
   text-align: center;
@@ -80,7 +94,8 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 10px;
+  gap: 5px;
+  padding: 1%;
 }
 .tid2 {
   text-align: center;
@@ -98,7 +113,8 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 10px;
+  gap: 5px;
+  padding: 1%;
 }
 .tid3 {
   text-align: center;
