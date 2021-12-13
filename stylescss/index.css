@@ -8,13 +8,6 @@ ul.mini {
   list-style: none;
 }
 
-/* #section_2 ul {
-  display: flex;
-  justify-content: space-between;
-  padding-left: 10%;
-  padding-right: 10%;
-} */
-
 .mini {
   list-style: none;
   padding: 0;
@@ -29,14 +22,14 @@ ul.mini {
 }
 
 .mini .negle {
-  background-image: url("../Redigerede billeder/negle.png");
+  background-image: url("../billeder/negle.png");
   background-size: cover;
 }
 .mini .vipper {
-  background-image: url("Redigerede billeder/vipper.png");
+  background-image: url("billeder/vipper.png");
   background-size: cover;
 }
 .mini .bars {
-  background-image: url("Redigerede billeder/bars.png");
+  background-image: url("billeder/bars.png");
   background-size: cover;
 }

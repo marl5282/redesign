@@ -7,17 +7,17 @@ img {
 
 /* ------------------------------------------------------------- section_1 ------------------------------------------------------------- */
 #section_1 {
-  background-image: url("Redigerede billeder/vipper.png");
+  background-image: url("../billeder/vipper.png");
   background-size: cover;
 }
-#section_1 h1 {
+/* #section_1 h1 {
   text-align: center;
   font-family: "Bebas Neue", cursive;
   text-decoration: none;
   font-weight: bold;
   font-size: 50px;
   color: white;
-}
+} */
 
 /* ------------------------------------------------------------- section_3 ------------------------------------------------------------- */
 #section_3 .video {
