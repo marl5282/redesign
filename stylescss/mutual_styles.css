@@ -7,6 +7,11 @@ body {
 }
 
 /* ------------------------------------------------ header -------------------------------------------- */
+/* burgermenu */
+.toggle-btn {
+  display: none;
+}
+
 header {
   background-color: #cfbebe;
   padding-top: 2%;
@@ -14,7 +19,7 @@ header {
 .hjem a {
   font-size: 5rem;
   margin-left: 45%;
-  font-family: "Bodoni Moda", serif;
+  font-family: "Bodino moda", serif;
 }
 ul {
   list-style: none;
@@ -47,4 +52,35 @@ img {
   width: 100%;
   height: auto;
   display: block;
+}
+
+/* ------------------------------@MEDIACURRY----------------------------------------------------------------------- */
+
+@media (max-width: 600px) {
+  .toggle-btn {
+    background: transparent;
+    border: none;
+    display: block;
+    min-width: 44px;
+    min-height: 44px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav.shown {
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: column;
+  }
+
+  nav ul {
+    display: flex;
+    flex-flow: column;
+  }
 }
