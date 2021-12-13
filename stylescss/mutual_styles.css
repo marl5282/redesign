@@ -16,6 +16,9 @@ header {
   background-color: #cfbebe;
   padding-top: 2%;
 }
+header .hjem{
+  text-align: center;
+}
 .hjem a {
   font-size: 5rem;
 <<<<<<< HEAD
