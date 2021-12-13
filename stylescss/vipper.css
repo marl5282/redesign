@@ -88,6 +88,12 @@ img {
 
 #section_4 .betaling {
   text-align: center;
+  margin-top: 2%;
+  font-size: 1.2rem;
+}
+
+#section_5 {
+  margin-top: 10%;
 }
 /* ------------------------------------------------------------- section_5 ------------------------------------------------------------- */
 
@@ -98,8 +104,9 @@ img {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
-  #section_5 img {
-    place-content: center;
-    max-width: 50%;
+  #section_5 {
+    /* place-content: center; */
+    max-width: 70%;
+    margin-left: 15%;
   }
 }
