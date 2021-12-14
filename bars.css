@@ -58,6 +58,8 @@ img {
 #section_4 .wrapper {
   gap: 20px;
   padding: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 h2 {
@@ -71,6 +73,7 @@ h2 {
   grid-template-rows: 1fr 1fr;
   gap: 10px;
   padding: 5%;
+  vertical-align: center;
 }
 .kategori {
   grid-column: 1/2;
@@ -89,4 +92,14 @@ h2 {
 
 #section_5 {
   margin-top: 10%;
+}
+
+@media (min-width: 600px) {
+  /* ------------------------------------------------------------- section_2 ------------------------------------------------------------- */
+
+  #section_5 {
+    /* place-content: center; */
+    max-width: 70%;
+    margin-left: 15%;
+  }
 }
