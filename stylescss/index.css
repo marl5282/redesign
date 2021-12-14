@@ -80,6 +80,13 @@ ul.mini {
   margin-inline: 15%;
   margin-block: 5%;
 }
+#section_6 .logo_insta {
+  width: 10%;
+}
+#section_6 .logo_face {
+  width: 7%;
+}
+
 #section_7 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -141,7 +148,16 @@ ul.mini {
 .sondag {
   margin-top: 2%;
 }
-
+.folg_med .wrapper {
+  display: flex;
+  gap: 10px;
+}
+.instagram {
+  width: 30%;
+}
+.facebook {
+  width: 22%;
+}
 @media (min-width: 600px) {
   ul.mini {
     list-style: none;
