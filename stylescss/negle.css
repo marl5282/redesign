@@ -6,26 +6,36 @@
 .hjem a {
   text-align: center;
 }
+
+img {
+  max-width: 100%;
+}
+
+.video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 /* ------------------------------------------------------------- section_1 ------------------------------------------------------------- */
 #section_1 {
   display: grid;
 
   background-image: url("../billeder/negle.png");
-    background-size: cover;
+  background-size: cover;
   padding: 20%;
 }
 
-#section_1 h1{
- text-align: center;
+#section_1 h1 {
+  text-align: center;
   font-size: 50px;
   color: white;
 }
 
 /* ------------------------------------------------------------- section_2 ------------------------------------------------------------- */
 #section_2 {
-grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-    margin: 60px;
+  margin: 60px;
 }
 
 .tekst {
@@ -41,6 +51,13 @@ grid-template-columns: 1fr 1fr;
   padding-block: 10%;
   text-align: center;
 }
+
+/* ------------------------------------------------------------- section_3 ------------------------------------------------------------- */
+
+section_3 .video {
+  justify-items: center;
+}
+
 /* ------------------------------------------------------------- section_4 ------------------------------------------------------------- */
 
 #section_4 {
@@ -310,15 +327,9 @@ grid-template-columns: 1fr 1fr;
 }
 
 #section_4 .huske {
- display: grid;
-  grid-template-columns: 1fr 1fr 1fr
-  gap: 5px;
-  padding: 1%;
-  margin: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
-
-
-
 
 @media (min-width: 600px) {
   /* ------------------------------------------------------------- section_2 ------------------------------------------------------------- */
@@ -326,6 +337,5 @@ grid-template-columns: 1fr 1fr;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-
   }
-
+}
