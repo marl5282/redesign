@@ -9,10 +9,39 @@
 /* ------------------------------------------------------------- section_1 ------------------------------------------------------------- */
 #section_1 {
   display: grid;
-  background-size: cover;
-}
-/* ------------------------------------------------------------- section_2 ------------------------------------------------------------- */
 
+  background-image: url("../billeder/negle.png");
+    background-size: cover;
+  padding: 10%;
+}
+
+#section_1 h1{
+ text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+/* ------------------------------------------------------------- section_2 ------------------------------------------------------------- */
+#section_2 {
+grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 
+    padding: 5%;
+  padding-bottom: 5%;
+  gap: 20px;
+}
+
+.tekst {
+  grid-column: 2/2;
+  grid-row: 1/2;
+}
+#section_2 .tekst {
+  padding-bottom: 5%;
+  gap: 10px;
+}
+#section_2 .knap {
+  padding-block: 10%;
+  text-align: center;
+}
 /* ------------------------------------------------------------- section_4 ------------------------------------------------------------- */
 
 #section_4 {
@@ -287,5 +316,18 @@
   gap: 5px;
   padding: 1%;
   margin: 10px;
-
 }
+
+
+
+
+@media (min-width: 600px) {
+  /* ------------------------------------------------------------- section_2 ------------------------------------------------------------- */
+  #section_2 .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+
+
+
