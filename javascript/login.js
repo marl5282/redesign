@@ -145,3 +145,7 @@ function toggleMenu() {
 
 /* Tilføj et klik-event til btn, der sætter toggleMenu-funktionen i gang */
 btn.addEventListener("click", toggleMenu);
+
+// ----------------------------------- book nu-knap -------------------------------------
+
+// -------------------------------------- bekræft ---------------------------------------
