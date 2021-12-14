@@ -6,11 +6,11 @@
 .knap {
   padding: 10%;
 }
-.video {
-  width: 30%;
+video {
+  width: 100%;
   height: auto;
   display: block;
-  margin-left: 5%;
+  /* margin-left: 5%; */
 }
 #section_2 {
   margin-top: 5%;
