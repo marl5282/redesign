@@ -11,11 +11,16 @@ img {
   display: block;
 }
 
+hr {
+  border: white 1px solid;
+}
+
 /* ------------------------------------------------------------- section_1 ------------------------------------------------------------- */
 #section_1 {
   background-image: url("../billeder/bars2.png");
   background-size: cover;
   padding: 20%;
+  color: white;
 }
 
 /* ------------------------------------------------------------- section_2 ------------------------------------------------------------- */
@@ -23,7 +28,6 @@ img {
   padding: 5%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
 }
 
 #section_2 .tekst {
@@ -35,9 +39,8 @@ img {
 
 #section_2 .knap {
   grid-column: 2/3;
-  grid-row: 2/3;
+
   text-align: center;
-  padding: 2%;
 }
 
 #section_2 {
@@ -47,6 +50,7 @@ img {
 /* ------------------------------------------------------------- section_3 ------------------------------------------------------------- */
 #section_3 .video {
   justify-items: center;
+  padding-bottom: 2%;
 }
 
 /* ------------------------------------------------------------- section_4 ------------------------------------------------------------- */
@@ -58,13 +62,16 @@ img {
 #section_4 .wrapper {
   gap: 20px;
   padding: 5%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 
 h2 {
   text-align: center;
   font-size: 2rem;
+}
+
+h4 {
+  text-align: center;
+  padding-top: 5%;
 }
 
 #section_4 .tekst {
@@ -80,18 +87,28 @@ h2 {
 }
 .tid {
   grid-column: 2/3;
+  text-align: center;
 }
 .pris {
   grid-column: 3/4;
   grid-row: 1/2;
+  text-align: end;
 }
 .beskriv {
   grid-column: 1/4;
   grid-row: 2/3;
 }
 
+#section_4 .betaling {
+  text-align: center;
+  margin-top: 2%;
+  font-size: 1.2rem;
+}
+
 #section_5 {
   margin-top: 10%;
+  padding-inline: 2%;
+  margin-bottom: 10%;
 }
 
 @media (min-width: 600px) {
