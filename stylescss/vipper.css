@@ -29,6 +29,7 @@ hr {
   padding: 5%;
   padding-bottom: 5%;
   gap: 20px;
+  padding-block: 10%;
 }
 #section_2 .tekst {
   padding-bottom: 5%;
@@ -54,7 +55,7 @@ hr {
 }
 #section_4 h4 {
   text-align: center;
-  padding-top: 5%;
+  padding-top: 13%;
 }
 
 #section_4 .wrapper {
@@ -136,6 +137,8 @@ hr {
 
 #section_5 {
   margin-top: 10%;
+  padding-inline: 2%;
+  margin-bottom: 10%;
 }
 /* ------------------------------------------------------------- section_5 ------------------------------------------------------------- */
 
@@ -145,6 +148,12 @@ hr {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+  }
+  .tekst {
+    float: right;
+  }
+  .billede {
+    float: left;
   }
   #section_3 .video {
     margin-inline: 40%;
