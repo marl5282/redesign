@@ -5,31 +5,69 @@ img {
   max-width: 100%;
 }
 
+hr {
+  border: white 1px solid;
+}
 /* ------------------------------------------------------------- section_1 ------------------------------------------------------------- */
 #section_1 {
   background-image: url("../billeder/vipper.png");
   background-size: cover;
+  padding: 10%;
 }
-/* #section_1 h1 {
+
+#section_1 h1 {
   text-align: center;
-  font-family: "Bebas Neue", cursive;
+  /* font-family: "Bebas Neue", cursive;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: bold; */
   font-size: 50px;
   color: white;
-} */
+}
 
+#section_2 {
+  padding: 5%;
+  padding-bottom: 5%;
+  gap: 20px;
+}
+#section_2 .tekst {
+  padding-bottom: 5%;
+  gap: 10px;
+}
+#section_2 .knap {
+  padding-block: 10%;
+  text-align: center;
+}
 /* ------------------------------------------------------------- section_3 ------------------------------------------------------------- */
 #section_3 .video {
-  justify-items: center;
+  margin: 15%;
 }
 /* ------------------------------------------------------------- section_4 ------------------------------------------------------------- */
+
+#section_4 {
+  background-color: #f0ebe7;
+  padding-block: 8%;
+}
+#section_4 h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+#section_4 h4 {
+  text-align: center;
+  padding-top: 5%;
+}
+
 #section_4 .wrapper {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  gap: 10px;
+  gap: 20px;
   padding: 5%;
+}
+#section_4 .husk {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 2%;
 }
 
 /* ------------------------- inner_wrapper1 ------------------------ */
@@ -37,7 +75,8 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 10px;
+  gap: 5px;
+  padding: 1%;
 }
 .tid1 {
   text-align: center;
@@ -55,7 +94,8 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 10px;
+  gap: 5px;
+  padding: 1%;
 }
 .tid2 {
   text-align: center;
@@ -73,7 +113,8 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 10px;
+  gap: 5px;
+  padding: 1%;
 }
 .tid3 {
   text-align: center;
@@ -103,6 +144,9 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+  }
+  #section_3 .video {
+    margin-inline: 40%;
   }
   #section_5 {
     /* place-content: center; */

@@ -45,7 +45,54 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
+.mandag {
+  text-align: center;
+  margin-bottom: 2%;
+}
+.tirsdag {
+  text-align: center;
+  margin-bottom: 2%;
+}
+.onsdag {
+  text-align: center;
+  margin-bottom: 2%;
+}
+.torsdag {
+  text-align: center;
+  margin-bottom: 2%;
+}
+.fredag {
+  text-align: center;
+  margin-bottom: 2%;
+}
+.lørdag {
+  text-align: center;
+  margin-bottom: 2%;
+}
+.søndag {
+  text-align: center;
+  margin-bottom: 2%;
+}
+.col_4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.nummer {
+  text-align: center;
+  margin-bottom: 2%;
+}
+.telefon {
+  margin-bottom: 2%;
+}
+.adresse {
+  margin-bottom: 2%;
+}
+.cvr {
+  margin-bottom: 2%;
+}
+.betaling {
+  margin-bottom: 2%;
+}
 /* mobil str */
 
 @media (min-width: 600px) {
