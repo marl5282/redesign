@@ -12,7 +12,7 @@
 
   background-image: url("../billeder/negle.png");
     background-size: cover;
-  padding: 10%;
+  padding: 20%;
 }
 
 #section_1 h1{
@@ -24,15 +24,14 @@
 /* ------------------------------------------------------------- section_2 ------------------------------------------------------------- */
 #section_2 {
 grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 
-    padding: 5%;
-  padding-bottom: 5%;
-  gap: 20px;
+  grid-template-rows: 1fr 1fr;
+    margin: 60px;
 }
 
 .tekst {
   grid-column: 2/2;
   grid-row: 1/2;
+  padding-left: 20px;
 }
 #section_2 .tekst {
   padding-bottom: 5%;
@@ -328,6 +327,5 @@ grid-template-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
 
-
-
+  }
 
