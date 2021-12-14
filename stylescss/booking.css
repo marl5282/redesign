@@ -24,32 +24,7 @@ form {
 
 #section_1 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  object-fit: cover;
-}
-
-.billed1 {
-  grid-column: 2/3;
-  grid-row: 1/2;
-}
-.billed2 {
-  grid-column: 4/5;
-  grid-row: 1/2;
-}
-
-.billed3 {
-  grid-column: 6/7;
-  grid-row: 1/2;
-}
-
-.billed4 {
-  grid-column: 3/4;
-  grid-row: 2/3;
-}
-.billed5 {
-  grid-column: 5/6;
-  grid-row: 2/3;
+  grid-template-columns: 1fr;
 }
 #section_2 {
   text-align: center;
