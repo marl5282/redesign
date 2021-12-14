@@ -149,11 +149,13 @@ hr {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
-  .tekst {
-    float: right;
+  #section_2 .billede {
+    width: 70%;
+    margin-left: 10%;
   }
-  .billede {
-    float: left;
+
+  #section_2 .tekst {
+    margin-left: 10%;
   }
   #section_3 .video {
     margin-inline: 40%;

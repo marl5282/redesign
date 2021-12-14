@@ -26,14 +26,18 @@ form {
   display: grid;
   grid-template-columns: 1fr;
 }
-#section_2 {
+
+#section_2 h2 {
+  text-align: center;
+}
+/* #section_2 {
   text-align: center;
   padding: 10%;
 }
 #section_2 .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
+} */
 #section_4 h2 {
   text-align: center;
 }
