@@ -14,7 +14,10 @@ video {
 .toggle-btn {
   display: none;
 }
-
+.toggle-btn {
+  padding-inline: 45%;
+  font-family: "Oranienbaum", serif;
+}
 header {
   background-color: #cfbebe;
   padding-top: 2%;
