@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 form {
-  padding: 2rem;
+  padding-inline: 15rem;
   background-color: #d9d7d7;
   border-radius: 8px;
 }
@@ -26,18 +26,27 @@ form {
   display: grid;
   grid-template-columns: 1fr;
 }
-
+#section_2 h2 {
+  text-align: center;
+  padding-block: 5%;
+}
+#section_2 .wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+#section_2 .wrapper1 {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 30%;
+  padding-block: 5%;
+}
 #section_2 h2 {
   text-align: center;
 }
-/* #section_2 {
-  text-align: center;
-  padding: 10%;
+.check {
+  place-items: center;
 }
-#section_2 .wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-} */
+
 #section_4 h2 {
   text-align: center;
 }

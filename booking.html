@@ -58,15 +58,18 @@
             <div class="kalender">
               <label for="dato"> Kalender </label>
               <input type="date" id="dato" name="dato" required />
-              <button type="reset">Gå tilbage</button>
             </div>
             <div class="tid">
               <label for="tid"> Tidspunkt </label>
               <input type="time" id="tid" name="tid" required />
-              <button type="submit">Næste</button>
             </div>
           </div>
 
+          <div class="wrapper1">
+            <button type="reset">Gå tilbage</button>
+            <button type="submit">Næste</button>
+          </div>
+          <hr />
           <h2>Kontakt oplysninger</h2>
 
           <div class="form-felt">
@@ -88,21 +91,24 @@
             />
           </div>
           <div class="form-felt">
-            <label for="check">
-              <input type="checkbox" id="check" required />
-              Jeg accepterer betingelserne
-            </label>
-          </div>
-          <div class="form-felt">
-            <label for="check">
-              <input type="checkbox" id="check" />
-              Jeg ønsker at modtage relevante informationer via sms og e-mail
-            </label>
+            <div class="check">
+              <label for="check1">
+                <input type="checkbox" id="check1" required />
+                Jeg accepterer betingelserne
+              </label>
+            </div>
+            <div class="check">
+              <label for="check2">
+                <input type="checkbox" id="check2" />
+                Jeg ønsker at modtage relevante informationer via sms og e-mail
+              </label>
+            </div>
           </div>
           <div class="knapper">
             <button type="reset">Gå tilbage</button>
             <button type="submit">Gå til bestilling</button>
           </div>
+          <hr />
         </form>
       </section>
 
