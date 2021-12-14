@@ -53,28 +53,22 @@
       <section id="section_2">
         <h2>Vælg dato og tid</h2>
 
-        <div class="wrapper">
-          <div class="kalender">
-            <form name="kalender" netlify>
+        <form action="tak.html" name="kontakt" netlify>
+          <div class="wrapper">
+            <div class="kalender">
               <label for="dato"> Kalender </label>
               <input type="date" id="dato" name="dato" required />
-            </form>
-            <button type="reset">Gå tilbage</button>
-          </div>
-
-          <div class="tid">
-            <form name="tid" netlify>
+              <button type="reset">Gå tilbage</button>
+            </div>
+            <div class="tid">
               <label for="tid"> Tidspunkt </label>
               <input type="time" id="tid" name="tid" required />
-            </form>
-            <button type="submit">Næste</button>
+              <button type="submit">Næste</button>
+            </div>
           </div>
-        </div>
-      </section>
 
-      <section id="section_3">
-        <h2>Kontakt oplysninger</h2>
-        <form name="kontakt" netlify>
+          <h2>Kontakt oplysninger</h2>
+
           <div class="form-felt">
             <label for="navn">Fulde navn </label>
             <input type="text" id="navn" name="navn" required />
@@ -126,13 +120,6 @@
 
         <div class="kommentar"></div>
         <div class="knap"></div>
-      </section>
-
-      <section id="section_5">
-        <div class="tekst">
-          <h2>Tak for din bestilling</h2>
-          <p>Vi ses d.xx/xx kl.xx:xx</p>
-        </div>
       </section>
     </main>
 
