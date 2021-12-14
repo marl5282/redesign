@@ -5,7 +5,10 @@
 body {
   background-color: #d9d7d7;
 }
-
+video {
+  height: auto;
+  display: block;
+}
 /* ------------------------------------------------ header -------------------------------------------- */
 /* burgermenu */
 .toggle-btn {
