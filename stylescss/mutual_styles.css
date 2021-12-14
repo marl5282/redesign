@@ -16,19 +16,15 @@ header {
   background-color: #cfbebe;
   padding-top: 2%;
 }
-header .hjem{
+header .hjem {
   text-align: center;
 }
 .hjem a {
   font-size: 5rem;
-<<<<<<< HEAD
   margin-left: 45%;
   font-family: "Bodino moda", serif;
-=======
-  margin-left: 40%;
-  font-family: "Bodoni Moda", serif;
->>>>>>> e6602a6585b14df5806ae4e05a92925666d79647
 }
+
 ul {
   list-style: none;
   display: flex;
@@ -40,20 +36,24 @@ ul {
   gap: 20px;
 }
 a {
-  font-family: "Bodoni", bold;
+  /* font-family: "Bodoni", bold; */
+  font-family: "Oranienbaum", serif;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 3 rem;
   color: black;
 }
 /* ----------------------------------------------------------------------------------------------------- */
-h1 {
+h1,
+h2,
+h3,
+h4 {
   font-family: "Bodoni Moda", serif;
   font-size: 3.5rem;
   text-align: center;
 }
 p {
-  font-family: "Bodino moda", serif;
+  font-family: "Bodoni moda", serif;
 }
 
 img {
