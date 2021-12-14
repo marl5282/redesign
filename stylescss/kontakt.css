@@ -36,6 +36,8 @@ h2 {
   width: 100%;
   height: auto;
   text-align: center;
+  display: block;
+  overflow: hidden;
 }
 .billed2 {
   margin-left: 10%;
@@ -116,6 +118,7 @@ h2 {
     aspect-ratio: 1/2;
     width: 100%;
     height: auto;
+    display: block;
   }
   .billed2 {
     margin-left: 10%;
