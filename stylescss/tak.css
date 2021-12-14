@@ -1,0 +1,14 @@
+#section_1 h2 {
+  margin-top: 10%;
+}
+#section_1 .tekst {
+  background-color: #cfbebe;
+
+  text-align: center;
+  margin-block: 10%;
+  margin-inline: 10%;
+  padding: 10%;
+}
+#section_1 .knap {
+  padding-top: 10%;
+}
