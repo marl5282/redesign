@@ -90,6 +90,96 @@ img {
   background-color: #cfbebe;
   border-radius: 20px;
 }
+#section_6 .wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-inline: 15%;
+  margin-block: 5%;
+}
+#section_6 .logo_insta {
+  width: 10%;
+}
+#section_6 .logo_face {
+  width: 7%;
+}
+
+#section_7 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  background-color: #cfbebe;
+}
+.tekst_fodnote {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 2fr 1fr 1fr;
+  margin-top: 5%;
+}
+.kontakt {
+  grid-column: 1/2;
+  grid-auto-rows: auto;
+}
+.adresse {
+  grid-column: 2/3;
+  margin-left: 20%;
+  grid-auto-rows: auto;
+}
+.telefon {
+  grid-column: 2/3;
+  grid-auto-rows: auto;
+  margin-left: 20%;
+}
+.betaling {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  margin-left: 20%;
+}
+.folg_med {
+  grid-column: 3/4;
+  grid-auto-rows: auto;
+  margin-left: 20%;
+}
+.cvr_fod {
+  grid-column: 2/4;
+  grid-auto-rows: auto;
+}
+.mandag {
+  margin-top: 5%;
+}
+.tirsdag {
+  margin-top: 2%;
+}
+.onsdag {
+  margin-top: 2%;
+}
+.torsdag {
+  margin-top: 2%;
+}
+.fredag {
+  margin-top: 2%;
+}
+.lordag {
+  margin-top: 2%;
+}
+.sondag {
+  margin-top: 2%;
+}
+.folg_med .wrapper {
+  display: flex;
+  gap: 10px;
+}
+.instagram {
+  width: 30%;
+}
+.facebook {
+  width: 22%;
+}
+.logo img {
+  border-radius: 50%;
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 10%;
+}
 /* ------------------------------@MEDIACURRY----------------------------------------------------------------------- */
 
 @media (max-width: 600px) {
