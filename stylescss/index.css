@@ -44,10 +44,17 @@ ul.mini {
 #section_3 .tekst {
   text-align: center;
 }
-
+#section_3 .knap_1 {
+  border: solid white 2px;
+  padding-block: 0.5%;
+  padding-inline: 5%;
+  background-color: #cfbebe;
+  border-radius: 20px;
+  text-align: center;
+}
 #section_3 .knap {
   text-align: center;
-  padding-top: 10px;
+  padding-top: 8%;
 }
 #section_4 .video {
   place-items: center;
@@ -87,6 +94,18 @@ ul.mini {
     justify-content: space-between;
     padding-left: 20%;
     padding-right: 25%;
+    flex-flow: wrap;
+  }
+  #section_3 .tekst {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  #section_3 .knap_1 {
+    border: solid white 2px;
+    padding-block: 0.5%;
+    padding-inline: 5%;
+    background-color: #cfbebe;
+    border-radius: 20px;
   }
   #section_5 .wrapper {
     display: flex;
