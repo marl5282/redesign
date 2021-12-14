@@ -12,3 +12,280 @@
   background-size: cover;
 }
 /* ------------------------------------------------------------- section_2 ------------------------------------------------------------- */
+
+/* ------------------------------------------------------------- section_4 ------------------------------------------------------------- */
+
+#section_4 {
+  background-color: #f0ebe7;
+  padding-block: 8%;
+}
+#section_4 h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+#section_4 h4 {
+  text-align: center;
+  padding-top: 5%;
+}
+
+#section_4 .wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 5%;
+}
+#section_4 .husk {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 2%;
+}
+
+/* ------------------------- inner_wrapper1 ------------------------ */
+#section_4 .inner_wrapper1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+  padding: 1%;
+}
+.tid1 {
+  text-align: center;
+}
+.pris1 {
+  text-align: center;
+}
+.beskriv1 {
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+
+/* ------------------------- inner_wrapper2 ------------------------ */
+#section_4 .inner_wrapper2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+  padding: 1%;
+}
+.tid2 {
+  text-align: center;
+}
+.pris2 {
+  text-align: center;
+}
+.beskriv2 {
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+
+/* ------------------------- inner_wrapper3 ------------------------ */
+#section_4 .inner_wrapper3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+  padding: 1%;
+}
+.tid3 {
+  text-align: center;
+}
+.pris3 {
+  text-align: center;
+}
+.beskriv3 {
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+
+#section_4 .betaling {
+  text-align: center;
+  margin-top: 2%;
+  font-size: 1.2rem;
+}
+
+#section_5 {
+  margin-top: 10%;
+}
+
+/* ------------------------- inner_wrapper4 ------------------------ */
+#section_4 .inner_wrapper4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+  padding: 1%;
+}
+.tid4 {
+  text-align: center;
+}
+.pris4 {
+  text-align: center;
+}
+.beskriv4 {
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+
+#section_4 .betaling {
+  text-align: center;
+  margin-top: 2%;
+  font-size: 1.2rem;
+}
+
+#section_5 {
+  margin-top: 10%;
+}
+
+/* ------------------------- inner_wrapper5 ------------------------ */
+#section_4 .inner_wrapper5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+  padding: 1%;
+}
+.tid5 {
+  text-align: center;
+}
+.pris5 {
+  text-align: center;
+}
+.beskriv5 {
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+
+#section_5 .betaling {
+  text-align: center;
+  margin-top: 2%;
+  font-size: 1.2rem;
+}
+
+#section_5 {
+  margin-top: 10%;
+}
+
+/* ------------------------- inner_wrapper6 ------------------------ */
+#section_4 .inner_wrapper6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+  padding: 1%;
+}
+.tid6 {
+  text-align: center;
+}
+.pris6 {
+  text-align: center;
+}
+.beskriv6 {
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+
+#section_6 .betaling {
+  text-align: center;
+  margin-top: 2%;
+  font-size: 1.2rem;
+}
+
+#section_5 {
+  margin-top: 10%;
+}
+/* ------------------------- inner_wrapper7 ------------------------ */
+#section_4 .inner_wrapper7 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+  padding: 1%;
+}
+.tid7 {
+  text-align: center;
+}
+.pris7 {
+  text-align: center;
+}
+.beskriv7 {
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+
+#section_7 .betaling {
+  text-align: center;
+  margin-top: 2%;
+  font-size: 1.2rem;
+}
+
+#section_5 {
+  margin-top: 10%;
+}
+/* ------------------------- inner_wrapper8 ------------------------ */
+#section_4 .inner_wrapper8 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+  padding: 1%;
+}
+.tid8 {
+  text-align: center;
+}
+.pris8 {
+  text-align: center;
+}
+.beskriv8 {
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+
+#section_8 .betaling {
+  text-align: center;
+  margin-top: 2%;
+  font-size: 1.2rem;
+}
+
+#section_5 {
+  margin-top: 10%;
+}
+
+/* ------------------------- inner_wrapper9 ------------------------ */
+#section_4 .inner_wrapper9 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+  padding: 1%;
+}
+.tid9 {
+  text-align: center;
+}
+.pris9 {
+  text-align: center;
+}
+.beskriv9 {
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+
+#section_9 .betaling {
+  text-align: center;
+  margin-top: 2%;
+  font-size: 1.2rem;
+}
+
+#section_5 {
+  margin-top: 10%;
+}
+
+#section_4 .huske {
+ display: grid;
+  grid-template-columns: 1fr 1fr 1fr
+  gap: 5px;
+  padding: 1%;
+  margin: 10px;
+
+}
