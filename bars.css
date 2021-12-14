@@ -5,24 +5,67 @@ img {
   max-width: 100%;
 }
 
+.video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* ------------------------------------------------------------- section_1 ------------------------------------------------------------- */
 #section_1 {
   background-image: url("../billeder/bars2.png");
   background-size: cover;
+  padding: 20%;
 }
 
 /* ------------------------------------------------------------- section_2 ------------------------------------------------------------- */
 #section_2 {
   padding: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
+
+#section_2 .tekst {
+  grid-column: 1/4;
+  background-color: rgb(207, 190, 190, 0.3);
+  margin: 2%;
+  padding: 8%;
+}
+
+#section_2 .knap {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  text-align: center;
+  padding: 2%;
+}
+
+#section_2 {
+  font-size: 1.3rem;
+}
+
 /* ------------------------------------------------------------- section_3 ------------------------------------------------------------- */
 #section_3 .video {
   justify-items: center;
 }
 
 /* ------------------------------------------------------------- section_4 ------------------------------------------------------------- */
+#section_4 {
+  background-color: #f0ebe7;
+  padding-block: 8%;
+}
 
 #section_4 .wrapper {
+  gap: 20px;
+  padding: 5%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+#section_4 .tekst {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -31,11 +74,9 @@ img {
 }
 .kategori {
   grid-column: 1/2;
-  grid-row: 1/2;
 }
 .tid {
   grid-column: 2/3;
-  grid-row: 1/2;
 }
 .pris {
   grid-column: 3/4;
@@ -46,8 +87,6 @@ img {
   grid-row: 2/3;
 }
 
-#section_4 {
-  display: flex;
+#section_5 {
+  margin-top: 10%;
 }
-
-@media (min-width: 600px);
