@@ -2,21 +2,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-/* form {
-  padding-inline: 15rem;
-  background-color: #d9d7d7;
-  border-radius: 8px;
-}
-form {
-  display: grid;
-  gap: 20px;
-  font-style: serif;
-}
-
-.form-felt {
-  display: grid;
-  gap: 10px;
-} */
 
 h2 {
   font-size: 2rem;
@@ -49,7 +34,7 @@ h4 {
   padding-block: 5%;
 }
 #section_4 {
-  padding-bottom: 10%;
+  padding-bottom: 3%;
 }
 #section_4 .wrapper {
   display: flex;
@@ -93,7 +78,11 @@ form {
   display: flex;
   justify-content: space-between;
 }
-
+#section_5 p {
+  margin-inline: 15%;
+  padding-top: 2%;
+  margin-bottom: 5%;
+}
 @media (min-width: 600px) {
   h2 {
     font-size: 3rem;
