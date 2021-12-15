@@ -6,7 +6,9 @@
 .hjem a {
   text-align: center;
 }
-
+main {
+  padding: 1%;
+}
 img {
   max-width: 100%;
 }
@@ -19,10 +21,9 @@ video {
 /* ------------------------------------------------------------- section_1 ------------------------------------------------------------- */
 #section_1 {
   display: grid;
-
   background-image: url("../billeder/negle.png");
   background-size: cover;
-  padding: 20%;
+  padding: 10%;
 }
 
 #section_1 h1 {
@@ -349,5 +350,9 @@ video {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+  }
+  #section_3 video {
+    width: 70%;
+    margin-inline: 15%;
   }
 }

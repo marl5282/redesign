@@ -89,7 +89,9 @@ img {
   padding-inline: 10%;
   background-color: #cfbebe;
   border-radius: 20px;
+  font-size: 1.5rem;
 }
+
 #section_6 .wrapper {
   display: flex;
   justify-content: space-between;
@@ -103,96 +105,80 @@ img {
   width: 7%;
 }
 /* -------------------------------------------- footer ------------------------------------------ */
-#section_7 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+footer {
+  margin-top: 5%;
 
+  padding-inline: 2%;
   background-color: #cfbebe;
 }
-
-.tekst_fodnote {
+#footer {
+  padding-bottom: 2%;
+}
+#footer .wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 2fr 1fr 1fr;
-  margin-top: 5%;
+  /* grid-template-rows: 1fr 1fr; */
 }
-
-.kontakt {
-  grid-column: 1/2;
-  grid-auto-rows: auto;
+footer h4 {
+  font-size: 1rem;
+  text-align: start;
 }
-
-.adresse {
-  grid-column: 2/3;
-  margin-left: 20%;
-  grid-auto-rows: auto;
-}
-
-.telefon {
-  grid-column: 2/3;
-  grid-auto-rows: auto;
-  margin-left: 20%;
-}
-
-.betaling {
-  grid-column: 3/4;
-  grid-row: 1/2;
-  margin-left: 20%;
-}
-
-.folg_med {
-  grid-column: 3/4;
-  grid-auto-rows: auto;
-  margin-left: 20%;
-}
-
-.cvr_fod {
-  grid-column: 2/4;
-  grid-auto-rows: auto;
-}
-
-.mandag {
-  margin-top: 5%;
-}
-
-.tirsdag {
-  margin-top: 2%;
-}
-
-.onsdag {
-  margin-top: 2%;
-}
-
-.torsdag {
-  margin-top: 2%;
-}
-.fredag {
-  margin-top: 2%;
-}
-
-.lordag {
-  margin-top: 2%;
-}
-
-.sondag {
-  margin-top: 2%;
-}
-
-.folg_med .wrapper {
+.wrapper_aben {
   display: flex;
-  gap: 10px;
+  gap: 15px;
 }
-.instagram {
-  width: 30%;
+.abningstid {
+  padding-top: 15%;
+  text-align: inherit;
+  padding-left: 5%;
 }
-.facebook {
-  width: 22%;
+.abningstid h4 {
+  padding-left: 0;
 }
+.betaling,
+.adresse,
+.telefon {
+  padding-top: 15%;
+  text-align: inherit;
+  padding-left: 10%;
+}
+/* .betaling {
+  margin-top: 42%;
+} */
+.folg_med {
+  padding-top: 36%;
+  text-align: inherit;
+  padding-left: 10%;
+}
+.wrapper_social {
+  display: flex;
+}
+footer .instagram img {
+  width: 50%;
+}
+
 .logo img {
   border-radius: 50%;
-  width: 40%;
-  margin-left: 30%;
-  margin-top: 10%;
+  width: 35%;
+  margin-left: 35%;
+}
+@media (min-width: 600px) {
+  #footer {
+    display: flex;
+  }
+  h4 {
+    text-align: start;
+  }
+  .logo {
+    padding-top: 10%;
+  }
+  .logo img {
+    width: 75%;
+
+    margin-left: 0;
+  }
+  .folg_med {
+  padding-top: 22%;
 }
 /* ------------------------------@MEDIACURRY----------------------------------------------------------------------- */
 
@@ -206,11 +192,9 @@ img {
     font-size: 1.1rem;
     cursor: pointer;
   }
-
   nav {
     display: none;
   }
-
   nav.shown {
     border-top: 1px solid #000;
     padding-top: 1rem;
@@ -218,9 +202,11 @@ img {
     flex: 1 1 100%;
     flex-flow: column;
   }
-
   nav ul {
     display: flex;
     flex-flow: column;
+  }
+  .knap a {
+    font-size: 1rem;
   }
 }

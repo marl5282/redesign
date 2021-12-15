@@ -12,3 +12,67 @@
 #section_1 .knap {
   padding-top: 10%;
 }
+footer {
+  margin-top: 5%;
+  padding-inline: 2%;
+  background-color: #cfbebe;
+}
+#footer .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
+}
+footer h4 {
+  font-size: 1rem;
+}
+.wrapper_aben {
+  display: flex;
+  gap: 15px;
+}
+.abningstid {
+  padding-top: 15%;
+  text-align: inherit;
+  padding-left: 5%;
+}
+.abningstid h4 {
+  padding-left: 0;
+}
+.betaling,
+.adresse,
+.telefon {
+  padding-top: 15%;
+  text-align: inherit;
+  padding-left: 10%;
+}
+/* .betaling {
+  margin-top: 42%;
+} */
+.folg_med {
+  padding-top: 36%;
+  text-align: inherit;
+  padding-left: 10%;
+}
+.wrapper_social {
+  display: flex;
+}
+footer .instagram img {
+  width: 50%;
+}
+.logo {
+  text-align: center;
+}
+.logo img {
+  border-radius: 50%;
+}
+@media (min-width: 600px) {
+  #footer {
+    display: flex;
+    /* display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr; */
+  }
+  .logo {
+    text-align: center;
+    padding-top: 10%;
+  }
+}

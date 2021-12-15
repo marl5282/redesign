@@ -19,7 +19,12 @@ hr {
 #section_1 {
   background-image: url("../billeder/bars2.png");
   background-size: cover;
-  padding: 20%;
+  padding: 10%;
+}
+
+#section_1 h1 {
+  text-align: center;
+  font-size: 50px;
   color: white;
 }
 
@@ -126,5 +131,9 @@ h4 {
     /* place-content: center; */
     max-width: 70%;
     margin-left: 15%;
+  }
+  #section_3 video {
+    width: 70%;
+    margin-inline: 15%;
   }
 }
