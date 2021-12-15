@@ -46,7 +46,7 @@ a {
   font-family: "Oranienbaum", serif;
   text-decoration: none;
   font-weight: bold;
-  font-size: 3 rem;
+  font-size: 1.5rem;
   color: black;
 }
 /* ----------------------------------------------------------------------------------------------------- */
@@ -102,68 +102,82 @@ img {
 #section_6 .logo_face {
   width: 7%;
 }
-
+/* -------------------------------------------- footer ------------------------------------------ */
 #section_7 {
   display: grid;
   grid-template-columns: 1fr 1fr;
 
   background-color: #cfbebe;
 }
+
 .tekst_fodnote {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 2fr 1fr 1fr;
   margin-top: 5%;
 }
+
 .kontakt {
   grid-column: 1/2;
   grid-auto-rows: auto;
 }
+
 .adresse {
   grid-column: 2/3;
   margin-left: 20%;
   grid-auto-rows: auto;
 }
+
 .telefon {
   grid-column: 2/3;
   grid-auto-rows: auto;
   margin-left: 20%;
 }
+
 .betaling {
   grid-column: 3/4;
   grid-row: 1/2;
   margin-left: 20%;
 }
+
 .folg_med {
   grid-column: 3/4;
   grid-auto-rows: auto;
   margin-left: 20%;
 }
+
 .cvr_fod {
   grid-column: 2/4;
   grid-auto-rows: auto;
 }
+
 .mandag {
   margin-top: 5%;
 }
+
 .tirsdag {
   margin-top: 2%;
 }
+
 .onsdag {
   margin-top: 2%;
 }
+
 .torsdag {
   margin-top: 2%;
 }
 .fredag {
   margin-top: 2%;
 }
+
 .lordag {
   margin-top: 2%;
 }
+
 .sondag {
   margin-top: 2%;
 }
+
 .folg_med .wrapper {
   display: flex;
   gap: 10px;
