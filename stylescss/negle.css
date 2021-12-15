@@ -11,7 +11,7 @@ img {
   max-width: 100%;
 }
 
-.video {
+video {
   width: 100%;
   height: auto;
   display: block;
@@ -35,13 +35,16 @@ img {
 #section_2 {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  margin: 60px;
+  margin: 80px;
 }
 
 .tekst {
   grid-column: 2/2;
   grid-row: 1/2;
-  padding-left: 20px;
+  padding-bottom: 5%;
+  /* padding-left: 20px; */
+  gap: 10%;
+  margin: 40px;
 }
 #section_2 .tekst {
   padding-bottom: 5%;
@@ -51,8 +54,19 @@ img {
   padding-block: 10%;
   text-align: center;
 }
+#section_2 .billede {
+  margin: 40px;
+}
 
 /* ------------------------------------------------------------- section_3 ------------------------------------------------------------- */
+
+#section_3 video {
+  width: 90%;
+  margin-inline: 5%;
+}
+#section_3 {
+  margin-bottom: 5%;
+}
 
 /* ------------------------------------------------------------- section_4 ------------------------------------------------------------- */
 
@@ -75,11 +89,16 @@ img {
   gap: 20px;
   padding: 5%;
 }
-#section_4 .husk {
+#section_4 .huske {
   text-align: center;
   font-weight: bold;
   font-style: italic;
   padding-top: 2%;
+}
+
+#section_4 .huske ul {
+  font-style: normal;
+  padding: 60px;
 }
 
 /* ------------------------- inner_wrapper1 ------------------------ */
@@ -317,13 +336,11 @@ img {
   font-size: 1.2rem;
 }
 
+/* ------------------------------------------------------------- section_5 ------------------------------------------------------------- */
 #section_5 {
   margin-top: 10%;
-}
-
-#section_4 .huske {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  padding-inline: 2%;
+  margin-bottom: 10%;
 }
 
 @media (min-width: 600px) {
